@@ -1,15 +1,12 @@
-package com.company;
-
-import restaurant.Menu;
-import restaurant.MenuItem;
+package restaurant;
 
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Main {
+public class Restaurant {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         MenuItem spaghetti = new MenuItem("spaghetti", 7.10, "noodles and stuff on it", "main", false);
         MenuItem soup = new MenuItem("soup", 13.23, "hot broth n stuff", "appetizer", true);
         ArrayList<MenuItem> myMenu = new ArrayList<>();
@@ -20,4 +17,8 @@ public class Main {
         //this is a new line of code
     }
 
+    @Override
+    public String toString() {
+        return "Restaurant{}";
+    }
 }

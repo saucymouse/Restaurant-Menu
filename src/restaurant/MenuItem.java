@@ -16,6 +16,8 @@ public class MenuItem {
         this.isNew = isNew;
     }
 
+    //getIsNew
+    
     public String getName() {
         return name;
     }

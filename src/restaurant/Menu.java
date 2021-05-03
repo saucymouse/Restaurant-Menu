@@ -12,6 +12,11 @@ public class Menu {
         this.dateUpdated = dateUpdated;
     }
 
+    //addItem(MenuItem item)
+    //removeItem(menuitem item)
+    //printMenu
+    //itemsUpdated--see when the last item was updated
+
     public ArrayList<MenuItem> getMenu() {
         return menu;
     }
